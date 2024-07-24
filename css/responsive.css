@@ -1,0 +1,189 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px){ 
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+    a{
+        font-size: 16px;
+    }
+    .pb_118 {
+        padding-bottom: 55px;
+    }
+    .pl_30 {
+        padding-left: 14px;
+        padding-top: 14px;
+    }
+    .py_53 {
+        padding: 44px 0;
+    }
+    .py_59 {
+        padding: 10px 0;
+    }
+    .menu li a {
+        padding-left: 10px;
+    }
+    .banner_part{
+        margin-top: 5px;
+    }
+    .banner_items {
+        padding: 89px 0;
+    }
+    .banner_bottom a h3 {
+        padding: 11px 0;
+    }
+    .common_heding h3 {
+        padding: 50px 0 20px;
+    }
+    .make_text{
+        padding-left: 14px;
+    }
+    .program_part .tex {
+        padding-bottom: 13px;
+    }
+    .footer_heading {
+        padding-bottom: 0.5px;
+    }
+    .copy_right{
+        justify-content: center;
+    }
+    .copy_right a {
+        font-size: 12px;
+    }
+    .copy_right p {
+        font-size: 12px;
+    }
+    /* style.css end */
+
+    /* boishakhi.css */
+    .men_banner,
+    .boishakhi_banner{
+        background-position: 80% 90%;
+        margin-top: 5px;
+    }
+    .boishakhi_text{
+        text-align: center;
+    }
+    .categories ul li:first-child {
+        padding: 11px 0 11px 19px;
+    }
+    .categories ul li {
+        padding: 11px 0 11px 19px;
+    }
+    .boishakhi_collection {
+        padding-top: 32px;
+        padding-bottom: 40px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+    .py_59 {
+        padding: 11px 0;
+    }
+    .menu li a {
+        padding-left: 10px;
+    }
+    .banner_items {
+        padding: 145px 0;
+    }
+    .pl_30 {
+        padding-left: 0;
+        padding-top: 17px;
+    }
+    .program_part .tex {
+        padding-bottom: 11px;
+    }
+    .footer_heading {
+        padding-bottom: 7.5px;
+    }
+    
+    .copy_right{
+        justify-content: center;
+    }
+    .copy_right a {
+        font-size: 17px;
+    }
+    .copy_right p {
+        font-size: 17px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+    .py_53 {
+        padding: 40px 0;
+    }
+    .py_59 {
+        padding: 36px 0;
+    }
+    .banner_items {
+        padding: 199px 0;
+    }
+    .make_text{
+        padding-left: 30px;
+    }
+    .pl_30 {
+        padding-top: 20px;
+    }
+    .program_part .tex {
+        padding-bottom: 19px;
+    }
+    .copy_right{
+        justify-content: center;
+    }
+    .copy_right a {
+        font-size: 16px;
+    }
+    .copy_right p {
+        font-size: 16px;
+    }
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){ 
+    .new_items {
+        margin-top: 0;
+    }
+    .facebook_ss img{
+        height: 100%;
+    }
+    .copy_right{
+        justify-content: center;
+    }
+    .copy_right a {
+        font-size: 17px;
+    }
+    .copy_right p {
+        font-size: 17px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px){ 
+    .new_items {
+        margin-top: 0;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    .new_items {
+        margin-top: 0;
+    }
+ }
